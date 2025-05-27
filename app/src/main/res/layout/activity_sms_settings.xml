@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:layoutDirection="rtl">
+
+    <EditText
+        android:id="@+id/edtPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="شماره گیرنده را وارد کنید"
+        android:inputType="phone"
+        android:gravity="right"
+        android:textDirection="rtl"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnSaveNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ذخیره شماره"
+        android:backgroundTint="#03DAC5"
+        android:textColor="#000000" />
+</LinearLayout>
