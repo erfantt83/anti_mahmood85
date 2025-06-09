@@ -52,6 +52,8 @@
 
         <!-- صفحه تنظیم ایمیل -->
         <activity android:name=".ui.theme.SmsSettingsActivity" />
+        <activity android:name=".ShakeSensitivityActivity"/>
+        <activity android:name=".SoundSelectionActivity"/>
 
         <!-- سرویس موقعیت مکانی -->
 

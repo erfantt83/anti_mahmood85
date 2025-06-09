@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_alarm1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="آژیر ۱" />
+
+        <RadioButton
+            android:id="@+id/radio_alarm2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="آژیر ۲" />
+
+        <RadioButton
+            android:id="@+id/radio_alarm3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="آژیر ۳" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSaveSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ذخیره" />
+</LinearLayout>
